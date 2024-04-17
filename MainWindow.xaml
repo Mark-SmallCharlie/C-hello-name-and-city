@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="#FF27A8AA">
+    <Grid Cursor="Help">
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="33" Margin="310,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Height="99" Margin="191,52,0,0" TextWrapping="Wrap" Text="   weclome" VerticalAlignment="Top" Width="427" FontSize="72" FontFamily="STCaiyun" Opacity="0.995"/>
+        <Button Content="hello" HorizontalAlignment="Left" Height="33" Margin="492,184,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click" FontSize="20"/>
+        <TextBox x:Name="txtcity" KeyDown="txtcity_KeyDown" HorizontalAlignment="Left" Height="33" Margin="310,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontSize="20" TextChanged="txtcity_TextChanged"/>
+        <TextBox x:Name="txthello" HorizontalAlignment="Left" Margin="116,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="502" Height="38" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,184,0,0" TextWrapping="Wrap" Text=" scanf your name" VerticalAlignment="Top" Width="177" Height="33" TextChanged="TextBox_TextChanged" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,241,0,0" TextWrapping="Wrap" Text="scanf your city" VerticalAlignment="Top" Width="177" Height="33" FontSize="20" TextChanged="TextBox_TextChanged_1"/>
+    </Grid>
+</Window>
